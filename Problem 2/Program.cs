@@ -21,7 +21,7 @@ void FillMatrix(int[,] Matrix)
             Matrix[i, j] = new Random().Next(-999,999);
             System.Console.Write($"{Matrix[i, j]} ");
         }
-    System.Console.WriteLine();
+        System.Console.WriteLine();
     }
 
 }

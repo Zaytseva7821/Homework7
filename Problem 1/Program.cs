@@ -20,7 +20,7 @@ void FillDoubleMatrix(double[,] Matrix)
             Matrix[i, j] = Math.Round(new Random().NextDouble()*200, 2);
             System.Console.Write($"{Matrix[i, j]} ");
         }
-    System.Console.WriteLine();
+        System.Console.WriteLine();
     }
 
 }
